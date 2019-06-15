@@ -4,3 +4,6 @@ option_settings:
   aws:autoscaling:launchconfiguration:
     IamInstanceProfile: aws-elasticbeanstalk-ec2-role
     SecurityGroups: sg-075ad511db35ab072
+  aws:elasticbeanstalk:environment:
+    EnvironmentType: LoadBalanced
+    LoadBalancerType: application
