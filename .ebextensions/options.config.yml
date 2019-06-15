@@ -14,6 +14,6 @@ option_settings:
     Timeout: PT30M
   aws:autoscaling:asg:
     Availability Zones: Any
-    Cooldown: 360
-    MaxSize: 4
-    MinSize: 1   
+    Cooldown: '360'
+    MaxSize: '4'
+    MinSize: '1'   
