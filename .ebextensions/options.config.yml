@@ -1,6 +1,0 @@
-option_settings:
-  aws:elasticbeanstalk:customoption:
-    ec2_spot_bid: "0.1" 
-  aws:autoscaling:launchconfiguration:
-    IamInstanceProfile: aws-elasticbeanstalk-ec2-role
-    SecurityGroups: sg-075ad511db35ab072
